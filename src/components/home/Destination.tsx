@@ -27,7 +27,7 @@ export default function DestinationSection() {
 
                     <h3 className="text-2xl font-semibold mt-3">Italy</h3>
                     <div className="flex items-center gap-2 text-white/90 mt-2">
-                        <HiOutlineLocationMarker className="text-blue-400 text-xl" />
+                        <HiOutlineLocationMarker className="text-[#4997D3] text-xl" />
                         <span className="text-base text-black">20 Packages</span>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ export default function DestinationSection() {
 
                         {/* Packages */}
                         <div className="flex items-center gap-2 text-white/90 mt-2">
-                            <HiOutlineLocationMarker className="text-blue-400 text-xl" />
+                            <HiOutlineLocationMarker className="text-[#4997D3] text-xl" />
                             <span className="text-base">20 Packages</span>
                         </div>
 
@@ -59,7 +59,7 @@ export default function DestinationSection() {
                         </p>
 
                         {/* Button */}
-                        <button className="mt-5 w-30 bg-transparent self-center border border-white/50 text-white px-4 py-2 rounded-sm text-sm hover:bg-white/20 transition">
+                        <button className="cursor-pointer mt-5 w-30 bg-transparent self-center border border-white/50 text-white px-4 py-2 rounded-sm text-sm hover:bg-white/20 transition">
                             Learn More
                         </button>
                     </div>
@@ -74,7 +74,7 @@ export default function DestinationSection() {
 
                     <h3 className="text-2xl font-semibold mt-3">Greece</h3>
                     <div className="flex items-center gap-2 text-white/90 mt-2">
-                        <HiOutlineLocationMarker className="text-blue-400 text-xl" />
+                        <HiOutlineLocationMarker className="text-[#4997D3] text-xl" />
                         <span className="text-base text-black">30 Packages</span>
                     </div>
 
@@ -82,7 +82,7 @@ export default function DestinationSection() {
             </div>
 
             <div className="text-right w-full px-12 max-w-6xl mx-auto mt-6"> 
-                <button className="text-blue-400 font-semibold text-sm hover:underline">See More</button> 
+                <button className="cursor-pointer text-[#4997D3] font-semibold text-sm hover:underline">See More</button> 
             </div>
         </section>
     );

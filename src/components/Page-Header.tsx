@@ -8,7 +8,7 @@ interface PageHeroProps {
 
 export default function PageHeader({ title, backgroundImage, currentPage }: PageHeroProps) {
     return (
-        <section className="relative h-[350px] md:h-[420px] w-full flex items-center justify-center text-center">
+        <section className="relative h-[350px] md:h-[520px] w-full flex items-center justify-center text-center">
 
             {/* Background Image */}
             <div className="absolute inset-0">

@@ -51,7 +51,7 @@ export function AchievementsSlider({ items }: { items: any }) {
                                 key={i}
                                 className={`flex flex-col items-center text-center transition-all duration-500 mb-8
                     ${isCenter
-                                        ? "w-[280px] h-[300px] bg-blue-400 text-white rounded-2xl shadow-md p-8 z-10"
+                                        ? "w-[280px] h-[300px] bg-[#4997D3] text-white rounded-2xl shadow-md p-8 z-10"
                                         : "w-[260px] h-[300px] text-gray-700 opacity-80 translate-y-36 z-0"
                                     }
                 `}
@@ -60,13 +60,13 @@ export function AchievementsSlider({ items }: { items: any }) {
                                 {/* Center card icon */}
                                 {isCenter && (
                                     <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center mb-6">
-                                        <div className="text-blue-500 text-4xl">{item.icon}</div>
+                                        <div className="text-[#4997D3] text-4xl">{item.icon}</div>
                                     </div>
                                 )}
 
                                 {/* Side card icon */}
                                 {!isCenter && (
-                                    <div className="text-blue-500 text-4xl mb-4">{item.icon}</div>
+                                    <div className="text-[#4997D3] text-4xl mb-4">{item.icon}</div>
                                 )}
 
                                 {/* Title */}
@@ -108,19 +108,19 @@ export function AchievementsSlider({ items }: { items: any }) {
 
 const achievements = [
     {
-        icon: <RibbonStarIcon size={80} color="#3B82F6" />,
+        icon: <RibbonStarIcon size={80} color="#4997D3" />,
         title: "TripAdvisor",
         subtitle: "Certificate of Excellence 2021",
         country: "Australia"
     },
     {
-        icon: <LaurelStarIcon size={90} color="#3B82F6" />,
+        icon: <LaurelStarIcon size={90} color="#4997D3" />,
         title: "Travel + Leisure",
         subtitle: "World’s Best Tour Operator 2022",
         country: "United States of America"
     },
     {
-        icon: <TrophyIcon size={80} color="#3B82F6" />,
+        icon: <TrophyIcon size={80} color="#4997D3" />,
         title: "World Travel Award",
         subtitle: "Best Travel Agency 2023",
         country: "United Kingdom"

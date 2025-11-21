@@ -1,6 +1,6 @@
 export function LaurelStarIcon({
     size = 64,
-    color = "#4A90E2",
+    color = "#4997D3",
 }: {
     size?: number;
     color?: string;

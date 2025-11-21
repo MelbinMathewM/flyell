@@ -5,24 +5,24 @@ import Footer from "./components/Footer";
 import Destinations from "./pages/Destinations";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import Explore from "./pages/Explore";
+import BackToTopButton from "./components/Back-To-Top";
 
 function App() {
   return (
     <>
-      {/* Always visible */}
       <Navbar />
 
-      {/* Page content changes here */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/destinations" element={<Destinations />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/blog" element={<Blog />} /> */}
+        <Route path="/destinations/explore" element={<Explore />} />
       </Routes>
 
-      {/* Always visible */}
       <Footer />
+      <BackToTopButton />
     </>
   );
 }

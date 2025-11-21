@@ -3,7 +3,7 @@ export default function AboutSection() {
         <section className="w-full py-20 px-6">
             <h2 className="text-center text-3xl font-bold mb-12">About Us</h2>
 
-            <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
 
                 {/* LEFT IMAGE */}
                 <div className="w-full border border-gray-200 rounded-2xl">
@@ -40,22 +40,22 @@ export default function AboutSection() {
                     <div className="grid grid-cols-2 w-90 sm:grid-cols-4 gap-3 mt-4">
 
                         <div className="text-center">
-                            <h4 className="text-blue-600 text-2xl font-bold">20+</h4>
+                            <h4 className="text-[#4997D3] text-2xl font-bold">20+</h4>
                             <p className="text-gray-600 text-sm">Years Experience</p>
                         </div>
 
                         <div className="text-center">
-                            <h4 className="text-blue-600 text-2xl font-bold">100+</h4>
+                            <h4 className="text-[#4997D3] text-2xl font-bold">100+</h4>
                             <p className="text-gray-600 text-sm">Happy Customer</p>
                         </div>
 
                         <div className="text-center">
-                            <h4 className="text-blue-600 text-2xl font-bold">15+</h4>
+                            <h4 className="text-[#4997D3] text-2xl font-bold">15+</h4>
                             <p className="text-gray-600 text-sm">Choice of Services</p>
                         </div>
 
                         <div className="text-center">
-                            <h4 className="text-blue-600 text-2xl font-bold">10+</h4>
+                            <h4 className="text-[#4997D3] text-2xl font-bold">10+</h4>
                             <p className="text-gray-600 text-sm">Professional Guides</p>
                         </div>
 

@@ -70,7 +70,7 @@ export default function ContactSection() {
                         </div>
 
                         {/* Button */}
-                        <button className="px-6 py-3 bg-blue-500 text-white rounded-md font-medium hover:bg-blue-600 transition">
+                        <button className="px-6 py-3 bg-[#4997D3] text-white rounded-md font-medium hover:bg-blue-600 transition">
                             Send Message
                         </button>
 

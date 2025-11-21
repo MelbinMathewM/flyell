@@ -73,7 +73,7 @@ export default function Hero() {
                     </div>
 
                     {/* Search Button */}
-                    <button className="bg-blue-400 hover:bg-blue-500 text-white px-8 py-3 rounded-sm text-sm transition">
+                    <button className="cursor-pointer bg-[#4997D3] hover:bg-blue-400 text-white px-8 py-3 rounded-sm text-sm transition">
                         Search
                     </button>
                 </div>

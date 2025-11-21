@@ -70,7 +70,7 @@ export default function FAQSection() {
 
                                     <BiChevronDown
                                         size={26}
-                                        className={`border rounded-2xl transition-transform duration-300 ${isOpen ? "rotate-180 bg-blue-400 text-white" : "text-blue-400"
+                                        className={`border rounded-2xl transition-transform duration-300 ${isOpen ? "rotate-180 bg-[#4997D3] text-white" : "text-[#4997D3]"
                                             }`}
                                     />
                                 </button>
